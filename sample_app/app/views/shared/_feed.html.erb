@@ -1,9 +1,0 @@
-<% if @feed_items.any? %>
-	<!-- 検索フォーム -->
-	<% @path = root_path %>
-	<%= render 'shared/search_form' %>
-	<ol class="microposts">
-		<%= render @feed_items %>
-	</ol>
-	<%= will_paginate @feed_items %>
-<% end %>
