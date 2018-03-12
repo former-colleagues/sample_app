@@ -16,7 +16,7 @@ development:
   reconnect: false
   database: sample_app_development
   username: root
-  password:
+  password: passpass
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,7 +28,7 @@ test:
   reconnect: false
   database: sample_app_test
   username: root
-  password:
+  password: passpass
 
 production:
   <<: *default
